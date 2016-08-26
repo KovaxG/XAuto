@@ -1,0 +1,9 @@
+﻿<Application
+    x:Class="Control_Test.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Control_Test"
+    RequestedTheme="Light">
+
+</Application>
+

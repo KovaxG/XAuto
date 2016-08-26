@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarProject.CSharp.Plugins", "CarProject.CSharp.Plugins.csproj", "{08B2D14A-40A6-2123-F94C-3D6E91C45A21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarProject.CSharp", "CarProject.CSharp.csproj", "{58BD64E9-8AD9-505A-3301-4DE6724CF544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarProject.CSharp.Editor", "CarProject.CSharp.Editor.csproj", "{90BBCA5A-E0CB-7C1F-7063-0FBD93FA856E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08B2D14A-40A6-2123-F94C-3D6E91C45A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B2D14A-40A6-2123-F94C-3D6E91C45A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B2D14A-40A6-2123-F94C-3D6E91C45A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B2D14A-40A6-2123-F94C-3D6E91C45A21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58BD64E9-8AD9-505A-3301-4DE6724CF544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58BD64E9-8AD9-505A-3301-4DE6724CF544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58BD64E9-8AD9-505A-3301-4DE6724CF544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58BD64E9-8AD9-505A-3301-4DE6724CF544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90BBCA5A-E0CB-7C1F-7063-0FBD93FA856E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90BBCA5A-E0CB-7C1F-7063-0FBD93FA856E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90BBCA5A-E0CB-7C1F-7063-0FBD93FA856E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90BBCA5A-E0CB-7C1F-7063-0FBD93FA856E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

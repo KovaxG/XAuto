@@ -1,0 +1,6 @@
+D:\Internship\Source Control\AutoX\UWP Communication\TermostatSimulator\TermostatSimulator\obj\ARM\Debug\App.g.i.cs
+D:\Internship\Source Control\AutoX\UWP Communication\TermostatSimulator\TermostatSimulator\obj\ARM\Debug\App.g.cs
+D:\Internship\Source Control\AutoX\UWP Communication\TermostatSimulator\TermostatSimulator\obj\ARM\Debug\App.xaml
+D:\Internship\Source Control\AutoX\UWP Communication\TermostatSimulator\TermostatSimulator\obj\ARM\Debug\MainPage.xaml
+D:\Internship\Source Control\AutoX\UWP Communication\TermostatSimulator\TermostatSimulator\obj\ARM\Debug\App.xbf
+D:\Internship\Source Control\AutoX\UWP Communication\TermostatSimulator\TermostatSimulator\obj\ARM\Debug\MainPage.xbf

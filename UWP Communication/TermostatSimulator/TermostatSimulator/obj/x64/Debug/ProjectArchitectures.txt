@@ -1,0 +1,1 @@
+D:\Internship\Source Control\AutoX\UWP Communication\TermostatSimulator\TermostatSimulator\TermostatSimulator.csproj;x64

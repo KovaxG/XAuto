@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="17f68863-cc39-4970-a403-65d5ec5b5a50"
+  name="ModelingProject1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="6fb23188-3ed8-42c6-9c41-b029387cc46b"
+        name="int" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="fad0a39a-40a1-4c0f-aa9c-92d6244f2c4f"
+        name="string" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="d77000fd-3054-4b4e-9213-c72cb0fc11f1"
+        name="List&lt;TextBox&gt;" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="82084afd-bb4c-40e5-989e-6915c418ef0f"
+        name="List&lt;TextBlock&gt;" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="752f2fd7-7cb5-42a9-a41b-a35c7b3c0985"
+        name="object" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="12fea096-7222-437f-a08e-8b01fad4af8e"
+        name="RoutedEventArgs" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="377e0186-bfc1-491b-9380-7041f53cbdb2"
+        name="StreamSocketListener" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="3ac599d5-6058-476f-8ead-4f6901c80f9b"
+        name="StreamSocketListenerConnectionReceivedEventArgs" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="ec8e10bc-8b74-4f6e-805e-ddcc77b0f19e"
+        name="Dictionary" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="bd4a0d55-2288-4327-96c8-eff4d8782841"
+        name="List" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="1078ed72-7d8e-4ca6-9064-b377e124d121"
+        name="Utility" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="41c64e47-19f4-4778-847c-cfaec51eb8cd"
+        name="TextBlock" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="dc7a5cf6-35bd-4599-ab95-a98ec8ee70b8"
+        name="List)" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f726cf20-ef6a-467b-bc7c-b79c815c41ab"
+        LastKnownName="UI11"
+        LastKnownLocation="Package_1325.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="20e35d62-c1d5-477e-afc8-d005540331fb"
+        name="Interface1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="abbb39c7-4425-4bd4-9072-806760381348"
+        LastKnownName="Connection"
+        LastKnownLocation="Package_1344.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="83b0e9bb-d9fc-42c2-8e02-d03c31e9ecd4"
+        LastKnownName="Utilities1"
+        LastKnownLocation="Package_1345.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="f2c9ec51-8123-4d1c-b99b-ef1cec42e4c1"
+        name="Task" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="82e2f3b9-669d-4d73-9191-31d217ccda62"
+        name="Action&lt;string&gt;" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="d03c4e58-4154-4fc5-be21-2724f35712d5"
+        LastKnownName="Interfaces"
+        LastKnownLocation="Package_1149.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="fda0d50b-4b3e-46de-a5f5-36e372266094"
+        name="Timer" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="78f37761-dc7f-404a-916e-bc9e1e0477c8"
+        name="lClientService" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="4b62ae42-e671-4be3-a682-1cc6880d0fdc"
+        name="lListenerService" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="5d742511-ce12-4744-92bd-f2500ad1bb5c"
+        name="Object" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="e6375124-d84c-4b2a-9b91-9c078cc52595"
+        LastKnownName="Utilities"
+        LastKnownLocation="Package_1150.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="6b8739f4-f316-4df7-9370-dfb8a80b8a4e"
+        name="DataHandler" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="bdeea1dc-2079-429d-aa27-f319b1249e23"
+        LastKnownName="UI"
+        LastKnownLocation="Package_1157.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="c49e2ec4-4129-4258-8aad-5a71d99c0396"
+        name="HostName" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="c801945e-ae2f-444f-9776-d55d932fba78"
+        name="Action" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="8dc0912e-34dc-47b6-b26f-ac5e2b13c6f4"
+        LastKnownName="DataTransmissions"
+        LastKnownLocation="Package_1158.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

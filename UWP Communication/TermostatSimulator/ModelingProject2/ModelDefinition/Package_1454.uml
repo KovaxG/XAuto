@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="eb69de43-111a-4c6b-971c-5048f63891cd"
+  name="UI" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="20052bc3-b3b3-4fae-ba5a-6994ba661972"
+        name="MainPage"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="97855201-655f-4f59-ae9f-6c14ca273a11"
+            isDerived="false"
+            sourceEndRoleName="MainPage"
+            targetEndRoleName="DataHandler"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="4061a626-7d52-4617-8df4-c516b9d38b87"
+              LastKnownName="DataHandler"
+              LastKnownLocation="Package_1456.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="399fd2e9-30f3-4538-9c6c-51f24b43c958"
+                  name="MainPage"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Shared"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="951e34ef-4e7f-44d3-98f5-1625d7a6fc94"
+                  name="DataHandler"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="5c337f22-47f8-4a38-868e-c12e2d840145"
+            name="_dataHandler"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="925bfa8e-86a2-4448-aaa9-fa48918af2e0"
+                LastKnownName="DataHandler"
+                LastKnownLocation="Package_1454.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="c5bb56c5-f740-470a-9b03-4acfa0af9128"
+            name="MainPage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="c0fb15d3-82e4-477c-91d5-e008a30291ea"
+            name="textRefreshTime_SelectionChanged"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="33b6e917-8099-4710-96c9-d497b323e6a5"
+                  name="sender"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="9f19192e-6490-4be2-a7ae-5addb9e3d1a8"
+                      LastKnownName="object"
+                      LastKnownLocation="Package_1456.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e258781b-4582-4278-8051-9820e78e9491"
+                  name="e"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="1598c6d8-4516-447a-a4a0-591984e26636"
+                      LastKnownName="RoutedEventArgs"
+                      LastKnownLocation="Package_1454.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="925bfa8e-86a2-4448-aaa9-fa48918af2e0"
+        name="DataHandler" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="1598c6d8-4516-447a-a4a0-591984e26636"
+        name="RoutedEventArgs" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

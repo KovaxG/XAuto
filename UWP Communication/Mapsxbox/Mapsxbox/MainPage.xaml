@@ -1,0 +1,135 @@
+﻿<Page
+    x:Class="Mapsxbox.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Mapsxbox"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="625.666" Width="1124.333">
+
+    <Grid Margin="45,50,0,155.333" HorizontalAlignment="Left" Width="910">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <!--  This part was commented out in order to test whether or not the background picture was blocking the listener. 
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/Map-petra.png"/>
+        </Grid.Background>
+        -->
+        <Image x:Name="backgroundImage" Grid.ColumnSpan="4" HorizontalAlignment="Left" Height="420" Grid.RowSpan="2" VerticalAlignment="Top" Width="910"/>
+
+        <TextBox x:Name="term2_text" HorizontalAlignment="Left" Margin="785,150,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="11" Width="56" LostFocus="textBox_LostFocus" Grid.Column="3" Grid.Row="1"/>
+        <TextBox x:Name="term1_text" HorizontalAlignment="Left" Margin="646,180,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="44" Height="15" LostFocus="textBox_LostFocus" Grid.Column="3" Grid.Row="1"/>
+        <TextBox x:Name="term5_text" HorizontalAlignment="Left" Margin="502,150,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="32" Width="48" LostFocus="textBox_LostFocus" Grid.Column="3" Grid.Row="1"/>
+        <TextBox x:Name="term3_text" HorizontalAlignment="Left" Margin="785,38,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="64" Height="20" LostFocus="textBox_LostFocus" Grid.Column="3" Grid.Row="1" TextChanged="term1_text_TextChanged"/>
+        <TextBlock x:Name="cmr0" Margin="775,313,45,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="24" Grid.Column="3" Grid.Row="1">
+            <Run Text=" "/>
+            <Run Text="Termostat "/>
+            <Run Text="0"/>
+        </TextBlock>
+        <TextBlock x:Name="cmr1" HorizontalAlignment="Left" Margin="658.166,160.885,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Height="19.387" Width="28.807" Grid.Column="3" Grid.Row="1" Text="T1">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="0.801"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock x:Name="cmr4" HorizontalAlignment="Left" Margin="536.521,92.604,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Height="23.336" Width="84.455" SelectionChanged="cmr2_SelectionChanged" Grid.Column="3" Grid.Row="1">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="0.801"/>
+            </TextBlock.RenderTransform>
+            <Run Text="Termostat "/>
+            <Run Text="4"/>
+            <Run Text=" "/>
+        </TextBlock>
+        <TextBlock x:Name="cmr3" HorizontalAlignment="Left" Margin="690.507,7.746,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Height="20.865" Width="134.388" Grid.Column="3" Grid.Row="1">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="0.801"/>
+            </TextBlock.RenderTransform>
+            <Run Text=" "/>
+            <Run Text="Termostat "/>
+            <Run Text="3"/>
+        </TextBlock>
+        <TextBlock x:Name="textBlock_output" HorizontalAlignment="Left" Margin="25,50,0,0" TextWrapping="Wrap" Text="Output:" VerticalAlignment="Top" Grid.Column="3" Height="20" Width="51" Grid.Row="1"/>
+        <TextBox x:Name="term0_text" HorizontalAlignment="Left" Margin="706,321,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Grid.Column="3" Height="8" Width="48" Grid.Row="1"/>
+        <TextBox x:Name="term6_text" HorizontalAlignment="Left" Margin="405,135,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Grid.Column="3" Height="32" Width="55" Grid.Row="1" RenderTransformOrigin="0.229,-0.312"/>
+        <TextBox x:Name="term8_text" HorizontalAlignment="Left" Margin="201,223,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Grid.Column="3" Height="17" Width="46" Grid.Row="1"/>
+        <TextBox x:Name="term7_text" HorizontalAlignment="Left" Margin="405,223,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Grid.Column="3" Height="22" Width="52" Grid.Row="1" RenderTransformOrigin="0.729,0.531"/>
+        <TextBox x:Name="term4_text" HorizontalAlignment="Left" Margin="646,85,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="44" Height="24" LostFocus="textBox_LostFocus" RenderTransformOrigin="0.573,0.632" Grid.Column="3" Grid.Row="1"/>
+        <TextBlock x:Name="cmr2" HorizontalAlignment="Left" Margin="812.026,124.737,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Height="17.747" Width="84.634" Grid.Column="3" Grid.Row="1">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="0.801"/>
+            </TextBlock.RenderTransform>
+            <Run Text="Termostat "/>
+            <Run Text="2"/>
+        </TextBlock>
+        <TextBlock x:Name="cmr5" HorizontalAlignment="Left" Margin="531.488,121.864,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Height="31.07" Width="140.443" Grid.Column="3" Grid.Row="1">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="0.801"/>
+            </TextBlock.RenderTransform>
+            <Run Text="Termostat "/>
+            <Run Text="5"/>
+        </TextBlock>
+        <TextBlock x:Name="cmr7" HorizontalAlignment="Left" Margin="365.117,254.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Height="18.563" Width="87.803" SelectionChanged="cmr2_Copy3_SelectionChanged" Grid.Column="3" Grid.Row="1">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="0.801"/>
+            </TextBlock.RenderTransform>
+            <Run Text="Termostat "/>
+            <Run Text="7"/>
+        </TextBlock>
+        <TextBlock x:Name="cmr6" HorizontalAlignment="Left" Margin="411.563,114.445,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Height="18.798" Width="83.095" SelectionChanged="cmr2_Copy4_SelectionChanged" Grid.Column="3" Grid.Row="1">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="0.801"/>
+            </TextBlock.RenderTransform>
+            <Run Text="Termostat "/>
+            <Run Text="6"/>
+            <Run Text=" "/>
+        </TextBlock>
+        <TextBlock x:Name="cmr8" HorizontalAlignment="Left" Margin="245.748,254.407,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Height="21.171" Width="87.641" Grid.Column="3" Grid.Row="1">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="0.801"/>
+            </TextBlock.RenderTransform>
+            <Run Text="Termostat "/>
+            <Run Text="8"/>
+        </TextBlock>
+        <TextBlock x:Name="cmr9" HorizontalAlignment="Left" Margin="19.183,252.766,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Height="18.884" Width="94.053" SelectionChanged="cmr2_Copy8_SelectionChanged" Grid.Column="3" Grid.Row="1">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="0.801"/>
+            </TextBlock.RenderTransform>
+            <Run Text="Termostat "/>
+            <Run Text="9"/>
+        </TextBlock>
+        <TextBox x:Name="term9_text" HorizontalAlignment="Left" Margin="110,223,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Grid.Column="3" Height="17" Width="46" Grid.Row="1"/>
+        <TextBox x:Name="term10_text" HorizontalAlignment="Left" Margin="160,321,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Grid.Column="3" Height="16" Width="54" Grid.Row="1"/>
+        <TextBlock x:Name="cmr10" HorizontalAlignment="Left" Margin="159.178,302.891,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Height="18.884" Width="90.852" SelectionChanged="cmr2_Copy8_SelectionChanged" Grid.Column="3" Grid.Row="1">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="0.801"/>
+            </TextBlock.RenderTransform>
+            <Run Text="Termostat "/>
+            <Run Text="10"/>
+        </TextBlock>
+        <TextBlock x:Name="cmr11" HorizontalAlignment="Left" Margin="257.907,351.44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Height="18.884" Width="101.704" SelectionChanged="cmr2_Copy8_SelectionChanged" Grid.Column="3" Grid.Row="1">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="0.801"/>
+            </TextBlock.RenderTransform>
+            <Run Text="Termostat "/>
+            <Run Text="11"/>
+        </TextBlock>
+        <TextBlock x:Name="cmr12" HorizontalAlignment="Left" Margin="439.443,324.104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Height="18.884" Width="109.799" SelectionChanged="cmr2_Copy8_SelectionChanged" Grid.Column="3" Grid.Row="1">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="0.801"/>
+            </TextBlock.RenderTransform>
+            <Run Text="Termostat "/>
+            <Run Text="12"/>
+        </TextBlock>
+        <TextBox x:Name="term11_text" HorizontalAlignment="Left" Margin="291,321,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Grid.Column="3" Height="16" Width="54" Grid.Row="1"/>
+        <TextBox x:Name="term12_text" HorizontalAlignment="Left" Margin="440,343,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Grid.Column="3" Height="16" Width="54" Grid.Row="1"/>
+        
+    </Grid>
+</Page>
